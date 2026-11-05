@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre los datos - Danganronpa 1 FanWiki</title>
+    <meta name="description" content="informacion sobre los datos de la wiki">
+</head>
+<body>
+    <a href="#contenido">Ir al contenido</a>
+    <header>
+        <a href="index.html"> <!--Logo-->
+            <img src="assets/img/logo_web.jpg" alt="Danganronpa 1 FanWiki con enlace a la página de inicio" width="50" height="50">
+        </a>
+
+        <nav aria-label="Menú principal"> <!--Menú del header. Poner aria-current="page" SOLO en el enlace de esta página-->
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="catalogo.html">Catálogo</a>
+                </li>
+                <li>
+                    <a href="comparativa.html">Comparativa</a>
+                </li>
+                <li>
+                    <a href="sobre-los-datos.html">Sobre los datos</a>
+                </li>
+                <li>
+                    <a href="propuesta.html">Propuesta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <h1>Sobre los datos</h1>
+        
+        <section id="origen">
+            <h2>Origen de los datos</h2>
+            <dl>
+                <dt>Fuente de referencia</dt>
+                <dd><a href="https://danganronpa.fandom.com/wiki/Danganronpa_Wiki">Danganronpa Fandom</a></dd>
+                <dt>Cómo se han obtenido</dt>
+                <dd>Se han recopilado con IA (copilot), y tomando como referencia esa wiki, y se han organizado en un fichero JSON.</dd>
+                <dt>Mantenido por</dt>
+                <dd>Mario García Canca, en este repositorio</dd>
+                <dt>Ubicacion</dt>
+                <dd><code>datos/personajes.json</code></dd>
+            </dl>
+        </section>
+
+        <section id="atribucion">
+            <h2>Licencia y atribucion</h2>
+            <p>La información y las imágenes proceden de la wiki de Danganronpa en Fandom, cuyo contenido suele publicarse con una licencia Creative Commons con atribución CC-BY-SA. Los personajes y las imágenes pertenecen a sus creadores. Este es un proyecto de clase, no oficial y sin ánimo de lucro.</p>
+        </section>
+
+        <!--Datos del JSON-->
+        <section id="transformacion">
+            <h2>De JSON a HTML</h2>
+
+            <figure>
+                <pre><code><!--Fragmento dl json--></code></pre>
+                <figcaption>Fragmento del fichero JSON con los datos de Makoto Naegi</figcaption>
+            </figure>
+            
+            <figure>
+                <pre><code>
+
+                </code></pre>
+                <figcaption>La tarjeta de Makoto Naegi en el catálogo, creada a partir de esos datos.</figcaption>
+            </figure>
+
+            <p>ESCRIBE AQUÍ 2 O 3 FRASES: qué campo del JSON se convirtió en qué etiqueta (el nombre en un título, la ruta de la imagen en una imagen, la fecha en una etiqueta de fecha...).</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <address>
+            Contacto: Mario García Canca <a href="https://github.com/DWavee">GitHub</a>
+        </address>
+        <p><small>© 2026 Danganronpa 1 FanWiki. Proyecto de clase no oficial.</small></p>
+        <p>Datos obtenidos de <a href="https://danganronpa.fandom.com/wiki/Danganronpa_Wiki">Danganronpa Fandom</a>. Más información en <a href="sobre-los-datos.html">Sobre los datos</a>.</p>
+    </footer>
+</body>
+</html>
