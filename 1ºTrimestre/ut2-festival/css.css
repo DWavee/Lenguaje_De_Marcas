@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(255, 241, 255);
+}
+nav {
+    background-color: rgb(247, 195, 153);
+}
+
+#inicio {
+    background-color: rgb(159, 255, 218);
+}
+
+#ganadores {
+    background-color: pink;
+}
+
+#preguntas {
+    background-color: rgb(253, 251, 110);
+}
+
+#contacto {
+    background-color: rgb(102, 218, 91);
+}
+
+footer {
+    background-color: rgb(134, 174, 247);
+}

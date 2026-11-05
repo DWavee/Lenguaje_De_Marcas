@@ -1,0 +1,14 @@
+Body
+|-- Header
+|     |----h1
+|-- Nav
+|     |----Inicio
+|     |----Ganadores
+|     |----Preguntas
+|     |----Contacto
+|-- Main
+|     |----Section1
+|     |----Section2
+|     |----Section3
+|     |----Section4
+|-- Footer
