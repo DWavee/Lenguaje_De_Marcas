@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre los datos - Danganronpa 1 FanWiki</title>
-    <meta name="description" content="informacion sobre los datos de la wiki">
+    <meta name="description" content="Información sobre los datos de la wiki y cómo se han convertido en páginas.">
 </head>
 <body>
     <a href="#contenido">Ir al contenido</a>
@@ -13,7 +13,7 @@
             <img src="assets/img/logo_web.jpg" alt="Danganronpa 1 FanWiki con enlace a la página de inicio" width="50" height="50">
         </a>
 
-        <nav aria-label="Menú principal"> <!--Menú del header. Poner aria-current="page" SOLO en el enlace de esta página-->
+        <nav aria-label="Menú principal"> 
             <ul>
                 <li>
                     <a href="index.html">Inicio</a>
@@ -25,7 +25,7 @@
                     <a href="comparativa.html">Comparativa</a>
                 </li>
                 <li>
-                    <a href="sobre-los-datos.html">Sobre los datos</a>
+                    <a href="sobre-los-datos.html"aria-current="page">Sobre los datos</a>
                 </li>
                 <li>
                     <a href="propuesta.html">Propuesta</a>
@@ -43,38 +43,88 @@
                 <dt>Fuente de referencia</dt>
                 <dd><a href="https://danganronpa.fandom.com/wiki/Danganronpa_Wiki">Danganronpa Fandom</a></dd>
                 <dt>Cómo se han obtenido</dt>
-                <dd>Se han recopilado con IA (copilot), y tomando como referencia esa wiki, y se han organizado en un fichero JSON.</dd>
+                <dd>Se han recopilado con ayuda de una IA (Copilot), tomando como referencia esa wiki, y se han organizado en un fichero JSON.</dd>
                 <dt>Mantenido por</dt>
                 <dd>Mario García Canca, en este repositorio</dd>
-                <dt>Ubicacion</dt>
+                <dt>Ubicación</dt>
                 <dd><code>datos/personajes.json</code></dd>
             </dl>
         </section>
 
         <section id="atribucion">
-            <h2>Licencia y atribucion</h2>
+            <h2>Licencia y atribución</h2>
             <p>La información y las imágenes proceden de la wiki de Danganronpa en Fandom, cuyo contenido suele publicarse con una licencia Creative Commons con atribución CC-BY-SA. Los personajes y las imágenes pertenecen a sus creadores. Este es un proyecto de clase, no oficial y sin ánimo de lucro.</p>
         </section>
 
         <!--Datos del JSON-->
         <section id="transformacion">
             <h2>De JSON a HTML</h2>
+            <p>Estos son los datos de un personaje tal como están en el fichero JSON y, debajo, la tarjeta del catálogo que se crea a partir de ellos.</p>          
+            <figure>
+                <pre><code>{
+  "id": "makoto-naegi",
+  "name": "Makoto Naegi",
+  "japaneseName": "苗木 誠",
+  "game": "danganronpa-1",
+  "gameTitle": "Danganronpa: Trigger Happy Havoc",
+  "talent": "Estudiante de afortunado definitivo",
+  "role": "protagonista",
+  "description": "Un estudiante optimista que confía en la esperanza y en sus compañeros.",
+  "profile": {
+    "birthday": "5 de febrero",
+    "height": [
+      "160 cm (Japón)",
+      "161 cm (Japón; DR3)",
+      "5'3\" (edición inglesa)"
+    ],
+    "bloodType": "A",
+    "likes": [
+      "Curry",
+      "Cosas de moda"
+    ],
+    "dislikes": [
+      "Caballa seca",
+      "Tofu seco"
+    ],
+    "personality": "Un estudiante optimista que confía en la esperanza y en sus compañeros.",
+    "source": "https://danganronpa.fandom.com/wiki/Makoto_Naegi"
+  },
+  "fate": {
+    "status": "sobrevive",
+    "chapter": null,
+    "role": "superviviente"
+  }
+}</code></pre>
+                <figcaption>Datos de Makoto Naegi en el fichero JSON.</figcaption>
+            </figure>
 
             <figure>
-                <pre><code><!--Fragmento dl json--></code></pre>
-                <figcaption>Fragmento del fichero JSON con los datos de Makoto Naegi</figcaption>
+                <pre><code>&lt;li&gt;
+    &lt;article&gt;
+        &lt;a href="fichas/makoto-naegi.html"&gt;
+            &lt;img src="assets/img/makoto-naegi/portrait.webp" alt="Retrato oficial de Makoto Naegi" height="300" width="300"&gt;
+            &lt;h3&gt;Makoto Naegi&lt;/h3&gt;
+        &lt;/a&gt;
+        &lt;dl&gt;
+            &lt;dt&gt;Talento&lt;/dt&gt;
+            &lt;dd&gt;Estudiante Afortunado Definitivo&lt;/dd&gt;
+            &lt;dt&gt;Cumpleaños&lt;/dt&gt;
+            &lt;dd&gt;&lt;time datetime="02-05"&gt;5 de febrero&lt;/time&gt;&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/article&gt;
+&lt;/li&gt;</code></pre>
+                <figcaption>Tarjeta de Makoto Naegi en el catálogo.</figcaption>
             </figure>
-            
-            <figure>
-                <pre><code>
 
-                </code></pre>
-                <figcaption>La tarjeta de Makoto Naegi en el catálogo, creada a partir de esos datos.</figcaption>
-            </figure>
-
-            <p>ESCRIBE AQUÍ 2 O 3 FRASES: qué campo del JSON se convirtió en qué etiqueta (el nombre en un título, la ruta de la imagen en una imagen, la fecha en una etiqueta de fecha...).</p>
+            <p>Cada campo del JSON se convierte en una etiqueta según lo que significa:</p>
+            <ul>
+                <li><code>name</code> es el título de la tarjeta (<code>h3</code>).</li>
+                <li><code>id</code> da nombre al fichero de la ficha y a la carpeta de su imagen.</li>
+                <li><code>talent</code> es el valor de «Talento» en una lista de descripción (<code>dl</code>).</li>
+                <li><code>profile.birthday</code> pasa a una etiqueta <code>time</code>: el texto visible es «5 de febrero» y el atributo <code>datetime</code> lleva <code>02-05</code> para que lo entienda una máquina.</li>
+                <li>El resto de campos (<code>height</code>, <code>bloodType</code>, <code>likes</code>, <code>dislikes</code>, <code>description</code>, <code>fate</code>...) se usan en la ficha del personaje, y <code>source</code> enlaza con su página en la wiki.</li>
+            </ul>
         </section>
-
     </main>
 
     <footer>
