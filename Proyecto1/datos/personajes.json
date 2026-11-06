@@ -28,7 +28,8 @@
     "fate": {
       "status": "sobrevive",
       "chapter": null,
-      "role": "superviviente"
+      "role": "superviviente",
+      "context": null
     }
   },
   {
@@ -60,7 +61,8 @@
     "fate": {
       "status": "sobrevive",
       "chapter": null,
-      "role": "superviviente"
+      "role": "superviviente",
+      "context": null
     }
   },
   {
@@ -92,7 +94,8 @@
     "fate": {
       "status": "sobrevive",
       "chapter": null,
-      "role": "superviviente"
+      "role": "superviviente",
+      "context": null
     }
   },
   {
@@ -124,7 +127,8 @@
     "fate": {
       "status": "sobrevive",
       "chapter": null,
-      "role": "superviviente"
+      "role": "superviviente",
+      "context": null
     }
   },
   {
@@ -154,7 +158,8 @@
     "fate": {
       "status": "sobrevive",
       "chapter": null,
-      "role": "superviviente"
+      "role": "superviviente",
+      "context": null
     }
   },
   {
@@ -184,7 +189,8 @@
     "fate": {
       "status": "sobrevive",
       "chapter": null,
-      "role": "superviviente"
+      "role": "superviviente",
+      "context": null
     }
   },
   {
@@ -214,7 +220,8 @@
     "fate": {
       "status": "muere",
       "chapter": 1,
-      "role": "víctima"
+      "role": "víctima",
+      "context": null
     }
   },
   {
@@ -244,7 +251,8 @@
     "fate": {
       "status": "muere",
       "chapter": 1,
-      "role": "culpable"
+      "role": "culpable",
+      "context": null
     }
   },
   {
@@ -274,7 +282,8 @@
     "fate": {
       "status": "muere",
       "chapter": 2,
-      "role": "víctima"
+      "role": "víctima",
+      "context": null
     }
   },
   {
@@ -304,7 +313,8 @@
     "fate": {
       "status": "muere",
       "chapter": 2,
-      "role": "culpable"
+      "role": "culpable",
+      "context": null
     }
   },
   {
@@ -334,7 +344,8 @@
     "fate": {
       "status": "muere",
       "chapter": 3,
-      "role": "víctima"
+      "role": "víctima",
+      "context": null
     }
   },
   {
@@ -395,7 +406,8 @@
     "fate": {
       "status": "muere",
       "chapter": 3,
-      "role": "culpable"
+      "role": "culpable",
+      "context": null
     }
   },
   {
