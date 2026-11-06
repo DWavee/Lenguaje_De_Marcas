@@ -5,14 +5,13 @@
     "japaneseName": "苗木 誠",
     "game": "danganronpa-1",
     "gameTitle": "Danganronpa: Trigger Happy Havoc",
-    "talent": "Estudiante de aforrunado definitivo",
+    "talent": "Estudiante aforrunado definitivo",
     "role": "protagonista",
     "description": "Un estudiante optimista que confía en la esperanza y en sus compañeros.",
     "profile": {
       "birthday": "5 de febrero",
       "height": [
-        "160 cm",
-        "5'3\""
+        "160 cm"
       ],
       "bloodType": "A",
       "likes": [
@@ -44,8 +43,8 @@
     "profile": {
       "birthday": "6 de octubre",
       "height": [
-        "167 cm (Japón)",
-        "5'6\" (edición inglesa)"
+        "167 cm (Japón)"
+  
       ],
       "bloodType": "B",
       "likes": [
@@ -76,8 +75,7 @@
     "profile": {
       "birthday": "5 de mayo",
       "height": [
-        "185 cm (Japón)",
-        "6'1\" (edición inglesa)"
+        "185 cm (Japón)"
       ],
       "bloodType": "B",
       "likes": [
@@ -109,9 +107,7 @@
     "profile": {
       "birthday": "3 de marzo",
       "height": [
-        "164 cm",
-        "5'4\" (edición inglesa; DR1)",
-        "5'3\" (edición inglesa; DRAE)"
+        "164 cm"
       ],
       "bloodType": "O",
       "likes": [
@@ -143,8 +139,7 @@
     "profile": {
       "birthday": "24 de abril",
       "height": [
-        "160 cm",
-        "5'3\" (edición inglesa)"
+        "160 cm"
       ],
       "bloodType": "B",
       "likes": [
@@ -174,8 +169,7 @@
     "profile": {
       "birthday": "25 de julio",
       "height": [
-        "180 cm",
-        "6'0\" (edición inglesa)"
+        "180 cm"
       ],
       "bloodType": "B",
       "likes": [
@@ -205,10 +199,9 @@
     "profile": {
       "birthday": "7 de julio",
       "height": [
-        "165 cm",
-        "5'5\" (edición inglesa)"
+        "165 cm"
       ],
-      "bloodType": null,
+      "bloodType": "B",
       "likes": [
         "Cantar y su grupo de idols"
       ],
@@ -227,7 +220,7 @@
   {
     "id": "leon-kuwata",
     "name": "Leon Kuwata",
-    "japaneseName": "桑田 怠恩",
+    "japaneseName": "桑田 怜恩",
     "game": "danganronpa-1",
     "gameTitle": "Danganronpa: Trigger Happy Havoc",
     "talent": "Jugador de béisbol definitivo",
@@ -236,8 +229,7 @@
     "profile": {
       "birthday": "3 de enero",
       "height": [
-        "175 cm",
-        "5'9\" (edición inglesa)"
+        "175 cm"
       ],
       "bloodType": null,
       "likes": [
@@ -267,10 +259,9 @@
     "profile": {
       "birthday": "14 de marzo",
       "height": [
-        "148 cm",
-        "4'10\" (edición inglesa)"
+        "148 cm"
       ],
-      "bloodType": null,
+      "bloodType": "A",
       "likes": [
         "Programar software"
       ],
@@ -298,10 +289,9 @@
     "profile": {
       "birthday": "9 de junio",
       "height": [
-        "187 cm",
-        "6'2\" (edición inglesa)"
+        "187 cm"
       ],
-      "bloodType": null,
+      "bloodType": "AB",
       "likes": [
         "Las motocicletas"
       ],
@@ -329,8 +319,7 @@
     "profile": {
       "birthday": "31 de agosto",
       "height": [
-        "176 cm",
-        "5'9\" (edición inglesa)"
+        "176 cm"
       ],
       "bloodType": null,
       "likes": [
@@ -360,10 +349,9 @@
     "profile": {
       "birthday": "31 de diciembre",
       "height": [
-        "170 cm",
-        "5'7\" (edición inglesa)"
+        "170 cm"
       ],
-      "bloodType": null,
+      "bloodType": "A",
       "likes": [
         "El anime y la cultura 2D"
       ],
@@ -392,10 +380,9 @@
     "profile": {
       "birthday": "23 de noviembre",
       "height": [
-        "164 cm",
-        "5'5\" (edición inglesa)"
+        "164 cm"
       ],
-      "bloodType": null,
+      "bloodType": "A",
       "likes": [
         "El té de rosa"
       ],
@@ -423,10 +410,9 @@
     "profile": {
       "birthday": "13 de septiembre",
       "height": [
-        "192 cm",
-        "6'4\" (edición inglesa)"
+        "192 cm"
       ],
-      "bloodType": null,
+      "bloodType": "A",
       "likes": [
         "Las artes marciales"
       ],
@@ -455,8 +441,7 @@
     "profile": {
       "birthday": "24 de diciembre",
       "height": [
-        "169 cm",
-        "5'7\" (edición inglesa)"
+        "169 cm"
       ],
       "bloodType": "A",
       "likes": [
@@ -488,8 +473,7 @@
     "profile": {
       "birthday": "24 de diciembre",
       "height": [
-        "169 cm (Japón)",
-        "5'7\" (edición inglesa)"
+        "169 cm (Japón)"
       ],
       "bloodType": "AB",
       "likes": [
