@@ -5,7 +5,7 @@
     "japaneseName": "苗木 誠",
     "game": "danganronpa-1",
     "gameTitle": "Danganronpa: Trigger Happy Havoc",
-    "talent": "Estudiante aforrunado definitivo",
+    "talent": "Estudiante afortunado definitivo",
     "role": "protagonista",
     "description": "Un estudiante optimista que confía en la esperanza y en sus compañeros.",
     "profile": {
@@ -199,7 +199,7 @@
     "japaneseName": "舞園 さやか",
     "game": "danganronpa-1",
     "gameTitle": "Danganronpa: Trigger Happy Havoc",
-    "talent": "Ídolo definitiva",
+    "talent": "Ídol definitiva",
     "role": "estudiante",
     "description": "La popular cantante de un grupo de ídolos y una de las primeras compañeras de Makoto.",
     "profile": {
@@ -489,10 +489,10 @@
       ],
       "bloodType": "AB",
       "likes": [
-        "Ninguno"
+        "La desesperación"
       ],
       "dislikes": [
-        "Ninguno"
+        "Mukuro Ikusaba"
       ],
       "personality": "Una figura carismática y voluble que está en el centro del conflicto de la academia.",
       "source": "https://danganronpa.fandom.com/wiki/Junko_Enoshima"
